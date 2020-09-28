@@ -40,6 +40,8 @@ function setup(){
 
 function draw(){
     background(backgroundImg);
+    textSize(25);
+    text("Gowrisivani",580,100);
     Engine.update(engine);
     console.log(box2.body.position.x);
     console.log(box2.body.position.y);
